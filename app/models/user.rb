@@ -4,5 +4,5 @@ validates :name, length: { minimum: 5 }
 validates :email, presence: true
 
 has_many :posts
-
+has_many :comments
 end
